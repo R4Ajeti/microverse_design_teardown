@@ -5,6 +5,7 @@ body{
   -moz-osx-font-smoothing: grayscale;
   margin: 0px;
   padding: 0px;
+  color: white;
 }
 
 nav{
@@ -148,9 +149,17 @@ text-align:left;
   text-align: center;
   vertical-align: 20%;
 }
-.AbsNav svg{
+.AbsNav a{
   margin-top: 12.5px;
+  border-radius: 5px;
+  background: transparent;
 } 
+.AbsNav img{
+  background: transparent;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
 
 /*Grid one*/
 
