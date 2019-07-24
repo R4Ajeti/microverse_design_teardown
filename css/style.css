@@ -1,14 +1,4 @@
-@font-face {font-family: "Mija W03 Bold";
-  src: url("fonts/7bd7f049ab12f7efc10d48e5fa57a618.eot"); /* IE9*/
-  src: url("fonts/7bd7f049ab12f7efc10d48e5fa57a618.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-  url("fonts/7bd7f049ab12f7efc10d48e5fa57a618.woff2") format("woff2"), /* chrome、firefox */
-  url("fonts/7bd7f049ab12f7efc10d48e5fa57a618.woff") format("woff"), /* chrome、firefox */
-  url("fonts/7bd7f049ab12f7efc10d48e5fa57a618.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-  url("fonts/7bd7f049ab12f7efc10d48e5fa57a618.svg#Mija W03 Bold") format("svg"); /* iOS 4.1- */
-}
-
 body{
-  font-family:"Mija W03 Bold" !important;
   font-size:16px;font-style:normal;
   -webkit-font-smoothing: antialiased;
   -webkit-text-stroke-width: 0.2px;
@@ -20,7 +10,6 @@ body{
 nav{
   margin: 0px;
   padding: 0px;
-  border: 2px solid green;
   background-color: #d33a2c;
 }
 nav h2,p{
@@ -42,7 +31,6 @@ nav .nav-items{
 nav .nav-items li{
   list-style-type: none;
   display: inline-block;
-  border: 2px solid green;
 }
 .search{
   border: 2px solid white;
@@ -67,17 +55,75 @@ img{height:2.5em;display:block;content:" ";width:100%;z-index:2;}
 
 footer {
   height: 400px;
-  background-color: #999;
   color: #eee;
   text-align:center;
+  background-color: #d33a2c;
 }
+
+.footer-table{
+  display: flex;
+  padding: 0 5px;
+  height: auto;
+  padding-bottom: 50px;
+  background: inherit;
+}
+
+.footer-elems{
+  width: 100%;
+  height: 800px;
+  background-color: #d33a2c;
+  margin-left: 25px;
+  margin-right: 6px;
+}
+
+.footer-table div div:first-child{
+  height: 20px;
+  width: 300px;
+  margin: 55px auto 30px auto;
+  background: inherit;
+}
+.footer-table div div:nth-child(2){
+  height: auto;
+  width: 80%;
+  margin: 50px auto 30px auto;
+  background: inherit;
+}
+.footer-table div div:nth-child(3){
+  float: left;
+  
+  background-color: inherit;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+.footer-table div div:nth-child(4){
+  height: 90px;
+  width: 400px;
+  margin: 80px auto 30px auto;
+  background: inherit;
+}
+
+.footer-table div div:nth-child(4){
+  height: 60px;
+  width: 500px;
+  margin: 30px auto 0px auto;
+  background: inherit;
+}
+.footer-table div div:last-child{
+  float: right;
+  width: 200px;
+  
+  background-color: inherit;
+  margin-right: 150px;
+  margin-top: 60px;
+}
+
 .footer-items{
   width: 85%;
   margin: 0 auto;
   padding-top: 50px;
   text-align: left;
   display: inline-block;
-	text-align:left;
+text-align:left;
 }
 .footer-item{
   float: left;
@@ -85,6 +131,20 @@ footer {
   font-family: 'Noto Serif', serif;
   font-size: 25px;
 }
+.AbsNav{
+  background-color: #666;
+  position: fixed;
+  left: 95%;
+  top: 90%;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  vertical-align: 20%;
+}
+.AbsNav svg{
+  margin-top: 12.5px;
+} 
 
 /*Grid one*/
 
