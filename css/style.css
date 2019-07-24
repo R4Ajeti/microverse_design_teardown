@@ -295,3 +295,133 @@ main {
   background: #3d3c3d;
 }
 /*Grid four end*/
+
+/*Grid five begin*/
+#grid-five {
+  background: #757875;
+  display: grid;
+  grid-template-columns: 1fr 7fr 1fr 7fr;
+  grid-gap: 30px;
+  padding: 40px;
+  align-items: start;
+}
+
+.grid-five-picture-part {
+  background: red;
+  /*padding: 10px;*/
+  border: 5px solid black;
+  border-radius: 10px;
+}
+
+.grid-five-writing-part {
+  /*background: blue;*/
+   /*padding: 40px;*/
+}
+
+.grid-five-pic {
+  background: white;
+  padding: 13px;
+}
+
+.grid-five-author {
+  background: #525150;
+  font-size: 1.3em;
+}
+
+.grid-five-course-title{
+  background: #5f5a5a;
+  font-size: 1.8em;
+}
+
+.grid-five-course-explain{
+  background: #322e2e;
+  padding: 5px;
+}
+/*Grid five end*/
+
+/*Grid six start*/
+#grid-six-div-one {
+  background: #a5a5a8;
+}
+
+#grid-six-div-two {
+  background: #737171;
+  height: 35vh;
+}
+
+#grid-six-div-one h2{
+  background: #51504e;
+  width: 25%;
+  margin: 0 auto;
+  text-align: center;
+  font-variant: small-caps;
+}
+
+#grid-six-div-two h2 {
+  background: #454440;
+  font-size: 2.5em;
+  width: 26%;
+}
+
+#grid-six section{
+  padding: 40px;
+}
+
+#grid-six-div-two p{
+  width: 50%;
+  font-size: 1.1em;
+  background: #454440;
+  line-height: 25px;
+  word-spacing: 3px;
+}
+/*Grid six end*/
+
+/*Grid seven start*/
+#grid-seven {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 400px;
+  background: #555552;
+  padding: 70px;
+  grid-column-gap: 30px;
+}
+
+.grid-seven-div{
+  padding: 0;
+  background: #98989b;
+}
+
+.grid-seven-div h2{
+  margin-top: 0;
+  background: #6a6464;
+}
+/*Grid seven end*/
+
+/*Grid eight start*/
+#grid-eight {
+  height: 50vh;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  /*grid-template-rows: */
+  background: #808085;
+  padding: 40px;
+  grid-gap: 30px;
+}
+
+#grid-eight section {
+  text-align: center;
+  background: #aaa4a4;
+}
+
+.grid-eight-title {
+  display: inline;
+  background: #3d3c3c;
+
+}
+
+#bigger-div-title {
+  font-size: 2em;
+}
+/*Grid eigth end*/
+
+
