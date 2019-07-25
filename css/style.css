@@ -3,17 +3,17 @@ body{
   -webkit-font-smoothing: antialiased;
   -webkit-text-stroke-width: 0.2px;
   -moz-osx-font-smoothing: grayscale;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   color: white;
 }
 
 nav{
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   background-color: #0f0c0cd1;
 }
-nav h2,p{
+nav h2 p{
     color: white;
 }
 
@@ -24,8 +24,8 @@ nav p{
 nav .nav-items{
   text-align: center;
   padding-left: calc(1.4em + .7vw);
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 nav .nav-items li{
@@ -41,8 +41,8 @@ nav .nav-items li .box{
 }
 .search{
   border: 2px solid white;
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
 }
 
 nav ul .nav-item{
@@ -54,7 +54,7 @@ nav ul .logo img{
   height:6.5em;
 }
 nav ul .nav-itemN{
-  padding-top: 0px;
+  padding-top: 0;
 }
 
 nav img{height:2.5em;display:block;content:" ";width:100%;z-index:2;}
@@ -112,7 +112,7 @@ footer {
 .footer-table div div:nth-child(4){
   height: 60px;
   width: 500px;
-  margin: 30px auto 0px auto;
+  margin: 30px auto 0 auto;
   background: inherit;
 }
 .footer-table div div:last-child{
@@ -130,14 +130,15 @@ footer {
   padding-top: 50px;
   text-align: left;
   display: inline-block;
-text-align:left;
 }
+
 .footer-item{
   float: left;
   margin: 15px 25px;
   font-family: 'Noto Serif', serif;
   font-size: 25px;
 }
+
 .AbsNav{
   background-color: #666;
   position: fixed;
@@ -149,11 +150,13 @@ text-align:left;
   text-align: center;
   vertical-align: 20%;
 }
+
 .AbsNav a{
   margin-top: 12.5px;
   border-radius: 5px;
   background: transparent;
 } 
+
 .AbsNav img{
   background: transparent;
   border-radius: 10px;
@@ -174,8 +177,6 @@ main {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto 400px 400px;
   grid-gap: 70px;
-  /*justify-items: left;
-  align-items: center;*/
 }
 
 .main-direct-child{
@@ -186,7 +187,6 @@ main {
   background: #9e9e9e;
   text-align: center;
   grid-column: 1 / -1;
- /* background: red;*/
 }
 
 .button {
@@ -212,7 +212,6 @@ main {
   width: 1%;
   padding: 30px;
   background: #9e9e9e;
-  /*background: red;*/
 }
 
 .grid-one-article-left {
@@ -266,14 +265,14 @@ main {
   margin-right: 20px;
 }
 
-#grid-two-forth-div section{
+#grid-two-forth-div-section{
   width: 60%;
   margin: 0 auto;
   text-align: center;
   margin-top: 20%;
 }
 
-#grid-two-forth-div section h1 {
+#grid-two-forth-div-section h2 {
   font-size: 2.2em;
 }
 
@@ -292,7 +291,7 @@ main {
   margin-top: 10%;
 }
 
-#grid-two-nine-div section h1 {
+#grid-two-nine-div section h2 {
   font-size: 2.2em;
 }
 /*Grid two end*/
@@ -383,14 +382,8 @@ main {
 
 .grid-five-picture-part {
   background: red;
-  /*padding: 10px;*/
   border: 5px solid black;
   border-radius: 10px;
-}
-
-.grid-five-writing-part {
-  /*background: blue;*/
-   /*padding: 40px;*/
 }
 
 .grid-five-pic {
@@ -438,7 +431,7 @@ main {
   width: 26%;
 }
 
-#grid-six section{
+#grid-six article{
   padding: 40px;
 }
 
@@ -483,7 +476,7 @@ main {
   grid-gap: 30px;
 }
 
-#grid-eight section {
+#grid-eight article {
   text-align: center;
   background: #aaa4a4;
 }
